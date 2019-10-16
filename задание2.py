@@ -1,7 +1,7 @@
-a=3
+a=-4
 b=a%2
-if b>0:
-    print('нечётное')
-else:
+if b==0:
     print('чётное')
-    
+else:
+    print('нечётное')
+
