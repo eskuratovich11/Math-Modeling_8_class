@@ -1,6 +1,8 @@
 import numpy as np
-def ymnogenie(a=[1,2,3]):
-    b=np.array(a)
-    otvet= b*b
-    print(otvet)
-ymnogenie(a=[1,2,3])
+def massiv(a=np.arange(1, 15, 1)):
+    b=len(a)
+    chislo=1
+    for i in range(0, b, 1):
+        chislo=chislo*a[i]
+    print(chislo)     
+massiv(a=np.arange(1, 5, 1))
